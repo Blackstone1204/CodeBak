@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<script src="http://cdn.static.runoob.com/libs/angular.js/1.4.6/angular.min.js"></script>
+</head>
+<body>
+
+<div  ng-app="" >
+
+
+
+<table>
+<tr>
+<td><span class="label">mode select</span></td>
+<td>
+<select ng-init="options=['Android','Ios']">
+<option ng-repeat="option in options">{{option}}</option>	
+</select>
+</td>
+</tr>
+
+<tr>
+<td><span class="label">script upload</span></td>
+<td>
+<input type="file" name="script">
+<input type="submit" name=""  value="upload">
+</td>
+
+	
+
+
+
+</tr>
+
+
+
+</table>
+
+<button></button>
+</div>
+
+</body>
+</html>
+
+
